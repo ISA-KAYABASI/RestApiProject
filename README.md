@@ -2,7 +2,6 @@
 
 I created an spring rest project. 
 There is user informations ( id, name, lastname, email, password )
-I user encoder for password.
 For database i used Hibernate (Jpa).
 In project you can add,update,list and delete users. 
 I used list method with @NamedQuery annotation.
