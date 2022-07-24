@@ -20,7 +20,7 @@ class TaskForEcodationApplicationTests implements TestTaskData {
     @Test
     public void testCreate() {
         User user= User.builder().name("isa").lastname("Kayabasi").email("isakayabasi@gmail.com")
-                .password(passwordEncoder().encode("password1")).build();
+                .password("password1").build();
         userRepository.save(user);
         //
         assertNotNull(userRepository.findById(1L).get());
